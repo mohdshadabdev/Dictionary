@@ -27,7 +27,7 @@ Welcome to the **Dictionary Web App** — a simple, responsive, and modern onlin
 ## 🚀 How to Use This Project
 
 1. **Clone or Download:**
-   - Clone this repository or [download the ZIP](https://mohdshadabdev.github.io/Dictionary/).
+   - Clone this repository or download the ZIP.
 
 2. **Run Locally:**
    - Simply open `index.html` in your browser.
