@@ -1,4 +1,4 @@
-# 📖 Dictionary Web App
+# Dictionary Web App
 
 Welcome to the **Dictionary Web App** — a simple, responsive, and modern online dictionary built using **HTML, CSS, and JavaScript**.
 
