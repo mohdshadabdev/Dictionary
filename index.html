@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Serif&family=Courier+Prime&display=swap" rel="stylesheet">
+</head>
+<body class="serif">
+  <main class="card">
+    <div class="top-bar">
+      <select id="font-select">
+        <option value="inter">Sans-serif</option>
+        <option value="serif" selected>Serif</option>
+        <option value="mono">Mono</option>
+      </select>
+      <label class="theme-toggle">
+        <input type="checkbox" id="theme-switch">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <h1 class="app-title">Dictionary</h1>
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Type a word...">
+      <button id="search-btn">Search</button>
+    </div>
+    <div id="result" class="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
