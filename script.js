@@ -29,7 +29,7 @@ async function fetchWord(word) {
 
 function displayResult(data) {
   const audioSrc = data.phonetics.find(p => p.audio)?.audio || "";
-  const audioBtn = audioSrc ? `<button class="audio-btn" onclick="playAudio('${audioSrc}')">▶️ Play</button>` : "";
+  const audioBtn = audioSrc ? `<button class="audio-btn" onclick="playAudio('${audioSrc}')">🔊 Play</button>` : "";
   let html = `
     <div>
       <span class="word-title">${data.word}</span>
